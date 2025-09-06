@@ -41,7 +41,7 @@ export default function HomePage() {
               educators who value trust and students who deserve fair assessments.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/auth/register?role=teacher">
+              <Link href="/teacher/dashboard">
                 <Button size="lg" className="w-full sm:w-auto">
                   Start as Teacher
                 </Button>
